@@ -1,0 +1,3 @@
+Quero deixar claro que esse é meu primeiro arquivo dentro de um repositório.
+Edições:
+0.001
