@@ -6,6 +6,6 @@ let resultado = 0;
 
 for (let num of numbers){
   resultado += num ;
-
 }
-  console.log(resultado);
+
+console.log(resultado);
