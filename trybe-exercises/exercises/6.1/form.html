@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML & CSS - Forms</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -11,6 +13,7 @@
   </header>
   <form action="" method="get">
     <fieldset id="personData">
+      <legend>Dados Pessoais</legend>
       <label for="fullName">Nome completo: 
         <input type="text" name="name" id="fullName" maxlength="40" required>
       </label>
@@ -28,6 +31,7 @@
       </label>
       <label for="sig">Estado:
         <select name="sigla" id="sig" required>
+          <option value="dales">dale</option>
         </select>
       </label>
       <div id="tipoRes">
@@ -39,7 +43,23 @@
         <label for="resApto">Apartamento</label>
       </div>
     </fieldset>
+    <fieldset id="worksData">
+      <legend>Experiência Profissional</legend>
+      <label for="resume">Resumo do currículo: 
+        <input type="text" name="resumo" id="resume" maxlength="1000" required>
+      </label>
+      <label for="cargo">Cargo:
+        <input type="text" name="Cargo" id="cargo" maxlength="40" required>
+      </label>
+      <label for="descCargo">Descrição do cargo: 
+        <input type="text" name="descCargo" id="descCargo" maxlength="500" required>
+      </label>
+      <label for="initDate">Data de Inicio: 
+        <input type="text" name="dataInicial" id="initDate" required>
+      </label>
+    </fieldset>
     <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
   </form>
 </body>
 </html>
