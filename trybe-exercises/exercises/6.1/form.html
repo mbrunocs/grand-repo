@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
   <title>HTML & CSS - Forms</title>
 </head>
 <body>
@@ -31,15 +30,16 @@
         <select name="sigla" id="sig" required>
         </select>
       </label>
-      <fieldset id="tipoRes">
+      <div id="tipoRes">
       <legend>Tipo de Residência:</legend>
         <input type="radio" value="resCasa" name="residencia" id="resCasa" required>
         <label for="resCasa">Casa</label>
         
         <input type="radio" value="resApto" name="residencia" id="resApto" required>
         <label for="resApto">Apartamento</label>
-      </fieldset>
+      </div>
     </fieldset>
+    <button type="submit">Enviar</button>
   </form>
 </body>
 </html>
