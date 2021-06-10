@@ -1,0 +1,9 @@
+input {
+  display: block;
+  width: 80%;
+}
+
+#tipoRes input{
+  display: inline;
+  width: auto;
+}
