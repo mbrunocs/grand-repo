@@ -71,7 +71,7 @@ function smallerName() {
   books.forEach((book) => {
     if (book.name.length < nameBook.length) nameBook = book.name;
   });
-
+gi
   // Variável nameBook que receberá o valor do menor nome;
   return nameBook;
 }
