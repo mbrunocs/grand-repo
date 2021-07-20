@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>HTML & CSS - Forms</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário</h1>
+    <h2><em>Insira abaixo os dados para preenchimento do seu currículo.</em></h2>
+  </header>
+  <form action="" method="get">
+    <fieldset id="personData">
+      <label for="fullName">Nome completo: 
+        <input type="text" name="name" id="fullName" maxlength="40" required>
+      </label>
+      <label for="email">Email: 
+        <input type="text" name="email" id="email" maxlength="50" required>
+      </label>
+      <label for="cpf">CPF: 
+        <input type="text" name="cpf" id="cpf" maxlength="11" required>
+      </label>
+      <label for="cep">Endereço: 
+        <input type="text" name="cep" id="cep" maxlength="200" required>
+      </label>
+      <label for="cid">Cidade: 
+        <input type="text" name="cid" id="cid" maxlength="28" required>
+      </label>
+      <label for="sig">Estado:
+        <select name="sigla" id="sig" required>
+        </select>
+      </label>
+      <fieldset id="tipoRes">
+      <legend>Tipo de Residência:</legend>
+        <input type="radio" value="resCasa" name="residencia" id="resCasa" required>
+        <label for="resCasa">Casa</label>
+        
+        <input type="radio" value="resApto" name="residencia" id="resApto" required>
+        <label for="resApto">Apartamento</label>
+      </fieldset>
+    </fieldset>
+  </form>
+</body>
+</html>
