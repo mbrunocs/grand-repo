@@ -8,10 +8,14 @@ A ideia é praticar um pouco **todos os dias** com mini-projetos.
 ## 📅 Dia 1 – Configuração do Ambiente
 ### Objetivo: preparar as ferramentas básicas.
 
+- Instalar [WSL]: E download do Ubuntu pela loja Microsoft
+```
+     wsl --install
+```
 - Instalar [VS Code](https://code.visualstudio.com/)  
 - Instalar [Node.js](https://nodejs.org/)  
 - Instalar [Python](https://www.python.org/downloads/)  
-- Criar conta ou revisar perfil no [GitHub](https://github.com)
+- Revisar perfil no [GitHub](https://github.com)
 
 ### Testes rápidos:
 ```bash
